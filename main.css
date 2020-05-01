@@ -1,144 +1,65 @@
 html {
-  font-family: 'Roboto Slab', "Open Sans Regular", "Helvetica",   "Arial", sans-serif;
-    font-display: fallback;
-    font-size: 16px;
+    font-family: 'Roboto Slab', "Open Sans Regular", "Helvetica",   "Arial", sans-serif;
+    font-size: 36px;
     background-color: #23272A;
 }
 
 ul, li {
-  padding: none;
-  float: none;
+    padding: none;
+    float: none;
+    list-style: none;
+    color: white;
 }
 
-#box {html {
-  font-family: 'Roboto Slab', "Open Sans Regular", "Helvetica",   "Arial", sans-serif;
-    font-display: fallback;
-    font-size: 16px;
-    background-color: #23272A;
-}
-
-ul, li {
-  padding: none;
-  float: none;
-}
-
-#box {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transition: translate(-50%, -50%);
+.box {
+    position: fixed;
+    left: 30%;
+    top: 50%;
+    min-width: 50px;
+    margin: 0;
 }
 
 #logo {
-  width: 500px;
-  margin: 0;
-  transition: all 1s ease-in-out;
+   
 }
 
 .logo-text {
-  position: absolute;
-  display: block;
-  color: #ffffff;
-  top: 60px;
-  left: 25px;
-  margin: 0;
-  list-style: none;
-  border-bottom: 0;
-  z-index: 99;
-  float: left;
-  cursor: pointer;
-  border-bottom: 1px solid #000000;
+    color: #ffffff;
+    padding: 0;
+    margin: 0;
+    float: left;
+    cursor: pointer;
+    border-bottom: 1px solid #ffffff;
 }
 
 .logo-text li {
-  float: left;
-  font-weight: 700;
-  font-size: 2rem;
-  opacity: 1;
-  transition: all 750ms ease-in-out;
-  transition-delay: 200ms;
-  max-width: 2rem;
-  
+    float: left;
+    font-weight: 700;
+    font-size: 2rem;
+    opacity: 1;
+    transition: all 750ms ease-in-out;
+    max-width: 2rem;
+    display: inline-block;
 }
 
 .logo-text li:first-child {
-  padding-left: 0;
+    padding-left: 0;
 }
 
 .logo-text li.spaced {
-  padding-left: 0;
+    padding-left: 0;
 }
 
 .logo-text:hover li.spaced {
-  padding-left: 0.5em;
+    padding-left: 0.5em;
 }
 
 .logo-text li.ghost {
-  opacity: 0;
-  max-width: 0;
+    opacity: 0;
+    max-width: 0;
 }
 
 .logo-text:hover li {
-  opacity: 1;
-  max-width: 100%;
-}
-
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transition: translate(-50%, -50%);
-}
-
-#logo {
-  width: 500px;
-  margin: 0;
-  transition: all 1s ease-in-out;
-}
-
-.logo-text {
-  position: absolute;
-  display: block;
-  color: #ffffff;
-  top: 60px;
-  left: 25px;
-  margin: 0;
-  list-style: none;
-  border-bottom: 0;
-  z-index: 99;
-  float: left;
-  cursor: pointer;
-  border-bottom: 1px solid #000000;
-}
-
-.logo-text li {
-  float: left;
-  font-weight: 700;
-  font-size: 2rem;
-  opacity: 1;
-  transition: all 750ms ease-in-out;
-  transition-delay: 200ms;
-  max-width: 2rem;
-  
-}
-
-.logo-text li:first-child {
-  padding-left: 0;
-}
-
-.logo-text li.spaced {
-  padding-left: 0;
-}
-
-.logo-text:hover li.spaced {
-  padding-left: 0.5em;
-}
-
-.logo-text li.ghost {
-  opacity: 0;
-  max-width: 0;
-}
-
-.logo-text:hover li {
-  opacity: 1;
-  max-width: 100%;
+    opacity: 1;
+    max-width: 100%;
 }
